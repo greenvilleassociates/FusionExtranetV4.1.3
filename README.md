@@ -21,6 +21,18 @@ We can rebuild corporate Lanscapes at Levels as low as three deep using Image Ma
 
 In the first release we are offering a fixed web platform of 1200px x Unlimited, but the system fixes the bottom bar to a corporate logo offering a much more sophisticated marketing delivery.
 
+GETTING STARTED AND INSTALLATION ON A COMMERCIAL WEB ACCOUNT
+  
+Once you get your account installed on any cPanel or CTS Panel Plus server, you can use GIT to clone a copy of the repository to your machine.
+ Example
+  
+ Your webroot is on the /var/www/htmldocs directory. Apache is configured to point acme.com to this directory.<BR>
+  You need to type git clone https://github.com/greenvilleassociates/GsubA-FusionExtranet4 /var/www/htmldocs/fusionshell and this will build the base platform.<BR>
+  Then you need to install some code in the root to redirect to the base for example:<BR>
+  git clone https://github.com/greenvilleassociates/FusionShellBase /var/www/htmldocs/basecode <BR>
+  then copy the basecode down a level by typing <BR>
+  cd /var/www/htmldocs/basecode (change to directory).... then cp *.* .. (this copies everything in the base down one level) <BR>
+  
 INSTRUCTIONS FOR ADDING WORDPRESS LINKS
 
 We recommend installing Wordpress in a "w" directory below the root for the Shell. Create a Mysql database and password and install wordpress from wordpress.org
