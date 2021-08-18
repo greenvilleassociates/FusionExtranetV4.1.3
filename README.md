@@ -13,6 +13,8 @@ Greenville Associates Fusion Shell 4 - Linux or Windows Appliance Server with Ap
 This shell provides a Open Platform Targeted Windowing System(On Windows/Linux/Unix) to provide javascript, HML5, PHP, Custom Microsoft(.ASPX), and Adobe Cold Fusion binaries to work in an integrated web framework. The Shell also hides the complexity of the software solution from the search bar, making it much friendlier to computer security architects. The shell works with IIS, Apache, and NGINX web servers without modification and links to any database platform supported by your web server. The First release
 is targeted for Mysql or Postgres Users using PHP or cPanel(Installatron or Softalicuous Users) but can be used as a standalone web page environment without them.
 
+WHAT IS FUSIONSEHLL?<BR>
+  
 In General the Gsuba-fusion shell provides a Commerical Desktop Experience to web applications with support for 1080p with a minor modification. The GSuba Shell also installs PHP Driven Web solutions from Joomla, Drupal, and Worpdress out of the box allowing non-developers the ability to complete their marketing tasks on a very sophisticated platform.
 
 We can rebuild corporate Lanscapes at Levels as low as three deep using Image Maps, combined with a Joomla datastore. The default install includes a Header and Footer File which can be customized to meet your business needs. (header.html), and (footer.html).
