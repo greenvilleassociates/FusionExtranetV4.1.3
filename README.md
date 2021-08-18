@@ -1,6 +1,11 @@
 # GsubA - FusionShell Version4 - Windows Appliance Server - ForCleanDedicatedStart - Up and Running in 5mins or less on a new Windows Server or VM
+
+PLATFORM REQUIREMENTS
 This platform requires a working webserver with PHP enabled. We support NGINX, Apache, or IIS, with the latter two recommended. (NGINX is very robust but requires
 expert Linux/Windows Administration help). [If you need help - To get help with these tasks we recommend installing Ubuntu linux, and simply search for Apache & PHP install Ubuntu and you will find hundreds of instruction sets which are workable. Ubuntu 16.04 is very stable and available on G.Cloud, Amazon Cloud, and Microsoft Azure Cloud]
+
+
+REPOSITORY OVERVIEW
 
 Greenville Associates Fusion Shell 4 - Linux or Windows Appliance Server with Apache Web Services & Mysql 5.7 Community & PHP 5.6
 (For Clean Installs - For Existing Platforms and web servers we recommend Version 2)
