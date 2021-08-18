@@ -30,11 +30,17 @@ Once you get your account installed on any cPanel or CTS Panel Plus server, you 
  Example
   
  Your webroot is on the /var/www/htmldocs directory. Apache is configured to point acme.com to this directory.<BR>
-  You need to type git clone https://github.com/greenvilleassociates/GsubA-FusionExtranet4 /var/www/htmldocs/fusionshell and this will build the base platform.<BR>
-  Then you need to install some code in the root to redirect to the base for example:<BR>
-  git clone https://github.com/greenvilleassociates/FusionShellBase /var/www/htmldocs/basecode <BR>
+  You need to type<BR>
+  "git clone https://github.com/greenvilleassociates/GsubA-FusionExtranet4 /var/www/htmldocs/fusionshell"<BR> 
+  and this will build the base platform. Then you need to install some code in the root to redirect to the base for example:<BR>
+  "git clone https://github.com/greenvilleassociates/FusionShellBase /var/www/htmldocs/basecode" <BR>
   then copy the basecode down a level by typing <BR>
   cd /var/www/htmldocs/basecode (change to directory).... then cp *.* .. (this copies everything in the base down one level) <BR>
+  
+  On windows machines its from a DOS/Powershell account
+  "git.exe clone https:https://github.com/greenvilleassociates/GsubA-FusionExtranet4 c:\inetpub\wwwroot\fusionshell" 
+  or From Github Desktop go to the Main Menu and Clone from the Internet and it will prompt you for the destination path.... Fusionshell SHOULD BE ONE LEVEL DEEP
+  on your website!!!!! It will work either way but we think you should leave yourself some flexibility for future mods.
   
 INSTRUCTIONS FOR ADDING WORDPRESS LINKS
 
