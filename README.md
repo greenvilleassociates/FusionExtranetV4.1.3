@@ -21,6 +21,9 @@ We can rebuild corporate Lanscapes at Levels as low as three deep using Image Ma
 
 In the first release we are offering a fixed web platform of 1200px x Unlimited, but the system fixes the bottom bar to a corporate logo offering a much more sophisticated marketing delivery.
 
+INSTALL GIT OR INSTALLATRON ON YOUR SERVER<BR>
+Microsoft bought github.com and its a very robust and reliable package installation utility. To install git from Linux type "apt-get install git" on Ubuntu/Debian systems or "yum install git" on Redhat/Centos7 variants. For Windows Platforms you need to install Github desktop. Just Google search for it, and it installs as an .EXE. There is also an<BR> experimental windows version of git, but it takes expert help. We like to simply copy git to C:\windows\system32 as we think it should be there anyway.<BR>
+  
 GETTING STARTED AND INSTALLATION ON A COMMERCIAL WEB ACCOUNT
   
 Once you get your account installed on any cPanel or CTS Panel Plus server, you can use GIT to clone a copy of the repository to your machine.
