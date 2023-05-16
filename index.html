@@ -46,11 +46,23 @@ function wait(ms){
        viewportheight = document.getElementsByTagName('body')[0].clientHeight;
        document.write('<p>Your Usable Screen Size is '+viewportwidth+'x'+viewportheight+'</p>');
  }
-
-
-
-	
-    if (viewportwidth > 1600)
+    if (viewportwidth > 2200)
+	{
+	//document.write('<p>Width is MEGA.... Choose Apple  '+viewportwidth+'x'+viewportheight+'</p>' );
+	//wait(7000);
+	//break;
+	////return;
+	window.location.href = "./2200index.html";
+	}
+    else if (viewportwidth > 2000)
+	{
+	//document.write('<p>Width is MEGA.... Choose Apple  '+viewportwidth+'x'+viewportheight+'</p>' );
+	//wait(7000);
+	//break;
+	////return;
+	window.location.href = "./2000index.html";
+	}
+    else if (viewportwidth > 1600)
 	{
 	//document.write('<p>Width is MEGA.... Choose Apple  '+viewportwidth+'x'+viewportheight+'</p>' );
 	//wait(7000);
